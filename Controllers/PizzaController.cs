@@ -17,12 +17,12 @@ namespace la_mia_pizzeria_model.Controllers
         {
             List<Pizza> ListPizza = new List<Pizza>();
 
-            ListPizza.Add(new Pizza("Pizza Margherita", "bona come er pane", "cane.png", 3.99));
-            ListPizza.Add(new Pizza("Pizza Capricciosa", "idem co patate", "cane.png", 7.99));
-            ListPizza.Add(new Pizza("Pizza Diavola", "er duca", "cane.png", 12.99));
-            ListPizza.Add(new Pizza("Pizza Quattro Formaggi", "fiocina", "cane.png", 9.99));
-            ListPizza.Add(new Pizza("Pizza Coi Funghi", "er monnezza", "cane.png", 11.99));
-            ListPizza.Add(new Pizza("Pizza Salsiccia e Salame", "tonino u lurdu", "cane.png", 5.99));
+            ListPizza.Add(new Pizza("Pizza Margherita", "bona come er pane", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 3.99));
+            ListPizza.Add(new Pizza("Pizza Capricciosa", "idem co patate", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 7.99));
+            ListPizza.Add(new Pizza("Pizza Diavola", "er duca", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 12.99));
+            ListPizza.Add(new Pizza("Pizza Quattro Formaggi", "fiocina", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 9.99));
+            ListPizza.Add(new Pizza("Pizza Coi Funghi", "er monnezza", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 11.99));
+            ListPizza.Add(new Pizza("Pizza Salsiccia e Salame", "tonino u lurdu", "https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg", 5.99));
 
             return View(ListPizza[id]);
         }
